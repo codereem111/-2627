@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>$2627 | Simple. Intentional. Inevitable.</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;500;700&family=Inter:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <style>
+      :root {
+        --accent-gold: #f3ba2f;
+        --accent-blue: #4facfe;
+        --midnight-navy: #020817; /* Replaced pure black */
+        --card-bg: rgba(255, 255, 255, 0.03);
+      }
+
+      body {
+        background-color: var(--midnight-navy);
+        background-image: 
+          radial-gradient(circle at top right, rgba(79, 172, 254, 0.1), transparent 400px),
+          radial-gradient(circle at bottom left, rgba(243, 186, 47, 0.05), transparent 400px);
+        font-family: "Inter", sans-serif;
+        color: #ffffff;
+        overflow-x: hidden;
+      }
+      
+      h1, h2, h3, .navbar-brand {
+        font-family: "Space Grotesk", sans-serif;
+        letter-spacing: -1px;
+      }
+
+      /* Floating Animation */
+      @keyframes float {
+        0% { transform: translateY(0px); }
+        50% { transform: translateY(-15px); }
+        100% { transform: translateY(0px); }
+      }
+
+      .floating {
+        animation: float 5s ease-in-out infinite;
+      }
+
+      /* 1. NAVBAR */
+      .navbar {
+        background: rgba(2, 8, 23, 0.85);
+        backdrop-filter: blur(15px);
+        border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+        padding: 15px 0;
+      }
+
+      /* 2. HERO SECTION */
+      .hero {
+        padding: 160px 0 80px;
+        position: relative;
+      }
+
+      .main-logo {
+        max-width: 450px;
+        width: 100%;
+        border-radius: 50%;
+        box-shadow: 0 0 50px rgba(79, 172, 254, 0.2);
+      }
+
+      /* 3. CA BOX */
+      .ca-container {
+        max-width: 550px;
+        margin: 40px auto;
+      }
+      .ca-box {
+        background: rgba(255, 255, 255, 0.05);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        padding: 20px;
+        border-radius: 12px;
+        transition: 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        text-align: center;
+      }
+      .ca-box:hover {
+        border-color: var(--accent-gold);
+        background: rgba(255, 255, 255, 0.08);
+        transform: scale(1.02);
+      }
+
+      /* 4. GALLERY CARDS */
+      .vision-img {
+        width: 100%;
+        border-radius: 15px;
+        border: 1px solid rgba(255,255,255,0.1);
+        transition: 0.5s;
+      }
+      .vision-img:hover {
+        transform: translateY(-10px);
+        border-color: var(--accent-blue);
+      }
+
+      /* 5. BUTTONS */
+      .btn-gold {
+        background: var(--accent-gold);
+        color: #000 !important;
+        font-weight: 700;
+        padding: 15px 40px;
+        border-radius: 4px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        border: none;
+      }
+      .btn-gold:hover {
+        filter: brightness(1.1);
+        box-shadow: 0 0 20px rgba(243, 186, 47, 0.4);
+      }
+
+      .btn-outline {
+        border: 1px solid rgba(255,255,255,0.3);
+        padding: 15px 40px;
+        border-radius: 4px;
+        color: white !important;
+      }
+
+      /* 6. MANIFESTO SECTION */
+      .manifesto-text {
+        font-size: 1.2rem;
+        line-height: 1.8;
+        color: #cbd5e1;
+      }
+
+      @media (max-width: 768px) {
+        .main-logo { max-width: 280px; }
+        .display-3 { font-size: 2.5rem; }
+      }
+    </style>
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container">
+        <a class="navbar-brand fs-3 fw-bold" href="#">$2627</a>
+        <div class="ms-auto d-flex align-items-center">
+          <a href="https://t.me/+KxcDRw9EKBQ4N2Mx" target="_blank" class="me-3 fs-4 text-white opacity-75"><i class="fab fa-telegram"></i></a>
+          <a href="https://x.com/2627coin" target="_blank" class="me-3 fs-4 text-white opacity-75"><i class="fab fa-x-twitter"></i></a>
+        </div>
+      </div>
+    </nav>
+
+    <section class="hero text-center">
+      <div class="container">
+        <img src="photo_2026-02-06_23-13-02.jpg" alt="$2627 Crest" class="main-logo floating mb-4" data-aos="zoom-in">
+        
+        <h1 class="display-3 fw-bold mb-3" data-aos="fade-up" data-aos-delay="200">THE CONVICTION</h1>
+        <p class="lead manifesto-text mx-auto mb-5" style="max-width: 750px;" data-aos="fade-up" data-aos-delay="300">
+          In a space full of noise, $2627 stands for simplicity, belief, and collective conviction. 
+          Everything else is just a trend. This is inevitable.
+        </p>
+
+        <div class="ca-container" data-aos="fade-up" data-aos-delay="400">
+          <div class="ca-box">
+            <span class="small text-uppercase opacity-50 d-block mb-1">Official Contract Address</span>
+            <span class="fw-bold fs-4" style="letter-spacing: 3px; color: var(--accent-gold);">COMING SOON</span>
+          </div>
+        </div>
+
+        <div class="d-flex justify-content-center gap-3 mt-4" data-aos="fade-up" data-aos-delay="500">
+          <a href="https://t.me/+KxcDRw9EKBQ4N2Mx" target="_blank" class="btn btn-gold">JOIN THE TELEGRAM</a>
+          <a href="#vision" class="btn btn-outline">READ MANIFESTO</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="vision" class="container py-5">
+      <div class="row g-5 align-items-center">
+        <div class="col-lg-6" data-aos="fade-right">
+          <h2 class="display-5 fw-bold mb-4">Building Together</h2>
+          <p class="manifesto-text">
+            $2627 represents alignment — when people move together, quietly and confidently, toward something bigger than charts. 
+            It’s minimal by design, powerful by community, and driven by those who were early enough to believe.
+          </p>
+        </div>
+        <div class="col-lg-6" data-aos="fade-left">
+          <img src="photo_2026-02-06_23-05-39.jpg" class="vision-img shadow-lg" alt="Building Together">
+        </div>
+      </div>
+    </section>
+
+    <section class="container py-5 mt-5">
+      <div class="row g-4 text-center">
+        <div class="col-md-4" data-aos="fade-up">
+          <img src="photo_2026-02-06_23-05-44.jpg" class="vision-img mb-4" alt="Intentional">
+          <h4 class="fw-bold">INTENTIONAL</h4>
+          <p class="opacity-50">Every move calculated.</p>
+        </div>
+        <div class="col-md-4" data-aos="fade-up" data-aos-delay="150">
+          <img src="photo_2026-02-06_23-05-42.jpg" class="vision-img mb-4" alt="Powerful">
+          <h4 class="fw-bold">POWERFUL</h4>
+          <p class="opacity-50">Community driven strength.</p>
+        </div>
+        <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+          <img src="photo_2026-02-06_22-58-55.jpg" class="vision-img mb-4" alt="Inevitable">
+          <h4 class="fw-bold">INEVITABLE</h4>
+          <p class="opacity-50">The future is set.</p>
+        </div>
+      </div>
+    </section>
+
+    <footer class="text-center py-5 border-top border-secondary mt-5" style="background: rgba(0,0,0,0.2);">
+      <div class="container">
+        <img src="photo_2026-02-06_23-05-45.jpg" width="80" class="mb-4 rounded-circle" alt="2627" style="border: 2px solid var(--accent-gold);">
+        <div class="fs-2 mb-4">
+          <a href="https://t.me/+KxcDRw9EKBQ4N2Mx" target="_blank" class="mx-3 text-white opacity-50"><i class="fab fa-telegram"></i></a>
+          <a href="https://x.com/2627coin" target="_blank" class="mx-3 text-white opacity-50"><i class="fab fa-x-twitter"></i></a>
+        </div>
+        <p class="small opacity-50 px-3">
+          $2627 — simple. intentional. inevitable.
+        </p>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({ 
+        duration: 1200, 
+        once: true,
+        easing: 'ease-in-out'
+      });
+    </script>
+  </body>
+</html>
